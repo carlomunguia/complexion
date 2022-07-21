@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "ajv": "^8.1.1",
     "chroma-js": "^2.4.2",
+    "rc-slider": "^10.0.1",
     "react": "^18.2.0",
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
