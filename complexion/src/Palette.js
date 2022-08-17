@@ -20,7 +20,13 @@ export default function Palette() {
   const [level, setLevel] = useState(500);
   const [format, setFormat] = useState("hex");
   const colorBoxes = palette.colors[level].map((color) => (
-    <ColorBox background={color[format]} name={color.name} key={color.id} />
+    <ColorBox
+      background={color[format]}
+      name={color.name}
+      key={color.id}
+      id={color.id}
+      paletteId={paletteId}
+    />
   ));
 
   const changeLevel = (level) => {
