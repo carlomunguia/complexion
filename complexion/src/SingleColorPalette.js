@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class SingleColorPalette extends Component {
   render() {
@@ -6,7 +6,7 @@ class SingleColorPalette extends Component {
       <div>
         <h1>Single Color Palette</h1>
       </div>
-    )
+    );
   }
 }
 
